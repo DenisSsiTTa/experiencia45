@@ -54,6 +54,7 @@
     function completeTask(id){
       item = document.getElementById(id);
       list = document.getElementById('done');
+      item.removeAttribute("onclick");
       list.appendChild(item);
     }
 
